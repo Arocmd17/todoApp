@@ -1,0 +1,125 @@
+* {
+  margin: 0px 0px;
+
+}
+body {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+._main {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 100px auto;
+  padding: 2.5%;
+  background: white;
+  height: 500px;
+  padding: 50px auto;
+  border-radius: 10px;
+  
+  
+}
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 0%;
+  right: 0;
+  height: 30px;
+  margin: 20px auto;
+  font-size: 16px;
+}
+.todo-input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.btn-add {
+  position: absolute;
+  width: 100%;
+  height: 115%;
+  /* margin: 0 60%; */
+  background-color: blue;
+}
+#to-dos {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 25px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#summary {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 50px;
+  font-size: 16px;
+}
+
+.to-do {
+  position: static;
+  width: 70%;
+  height: 25px;
+  font-size: 24px;
+  margin: 2.5px 0;
+  padding: 2.5px 5px;
+  background-color: gainsboro;
+}
+.btn-area {
+  position: relative;
+  right: 0;
+  left: 50px;
+  top: 5px;
+  width: 200px;
+  height: 200px;
+}
+.delete-btn {
+  position: absolute;
+  background-color: red;
+  color: bisque;
+  height: 30px;
+  margin: 0 0 0 2px;
+
+}
+.save-btn {
+  position: absolute;
+  right: 0;
+  background-color: green;
+  color: bisque;
+  height: 30px;
+  margin: 0 2px 0 0;
+}
+#clear-btn {
+  position: absolute;
+  right: 0;
+  background-color: blueviolet;
+  color: bisque;
+  height: 25px;
+}

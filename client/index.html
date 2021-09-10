@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css"></style>
+</head>
+<body>
+  <div class="col-4 _main">
+    <h1>Todo App</h1>
+    <div class="col-12 input-box">
+      <div style="width:70%;  position: relative;" >
+        <input type="text" class="todo-input" id="new-task" placeholder="Add your new todo"/>
+      </div>
+      <div style="width:30%; position: relative;">
+        <button class="btn-add" onclick="addTask()">
+          Add
+        </button>
+      </div>
+    </div>
+    <div class="col-12" style="border: 1px solid grey" id="to-dos">
+
+    </div>
+    <div class="col-12"  id="summary" style="font-size: 16px">
+      You have <span id="count"></span> pending tasks
+      <button id="clear-btn" onclick="clearTask()" >Clear All</button>
+    </div>
+  </div>
+
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
