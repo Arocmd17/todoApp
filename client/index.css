@@ -1,10 +1,10 @@
 * {
   margin: 0px 0px;
-
+  font-size: 24px;
 }
 body {
   position: relative;
-  height: 100vh;
+  height: 91.5vh;
   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 /* For desktop: */
@@ -33,7 +33,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  margin: 100px auto;
+  margin: 50px auto 0px;
   padding: 2.5%;
   background: white;
   height: 500px;
@@ -61,7 +61,6 @@ body {
   position: absolute;
   width: 100%;
   height: 115%;
-  /* margin: 0 60%; */
   background-color: blue;
 }
 #to-dos {
@@ -74,52 +73,62 @@ body {
   flex-direction: column;
   overflow: auto;
 }
-
 #summary {
   position: relative;
   left: 0;
   right: 0;
   top: 50px;
-  font-size: 16px;
 }
 
 .to-do {
   position: static;
-  width: 70%;
+  width: 100%;
   height: 25px;
-  font-size: 24px;
   margin: 2.5px 0;
   padding: 2.5px 5px;
   background-color: gainsboro;
 }
-.btn-area {
+.to-do-text{
+  width: 75%;
+  float: left;
+  height: 100%;
+}
+#to-dos input{
+  background: transparent;
+  border: none;
+}
+
+.to-do-btn{
   position: relative;
-  right: 0;
-  left: 50px;
-  top: 5px;
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  float: left;
 }
 .delete-btn {
   position: absolute;
   background-color: red;
   color: bisque;
   height: 30px;
+  width: 100%;
   margin: 0 0 0 2px;
 
 }
 .save-btn {
   position: absolute;
-  right: 0;
   background-color: green;
   color: bisque;
   height: 30px;
-  margin: 0 2px 0 0;
+  width: 100%;
+  margin: 0 0 0 2px;
 }
 #clear-btn {
   position: absolute;
   right: 0;
   background-color: blueviolet;
   color: bisque;
-  height: 25px;
+  height: 35px;
+}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

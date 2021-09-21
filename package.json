@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A Todo App to help track your daily work",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arocmd17/todoApp.git"
+  },
+  "keywords": [
+    "Todo"
+  ],
+  "author": "Akande Ruben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arocmd17/todoApp/issues"
+  },
+  "homepage": "https://github.com/Arocmd17/todoApp#readme"
+}
